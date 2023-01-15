@@ -1,13 +1,14 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Poppins", arial, sans-serif;
+  background-image: url("/img/backg.jpg");
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
-  font-weight: 100;
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: 500;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 5;
 }
 
 ul {
@@ -19,7 +20,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 100;
 }
@@ -30,17 +31,30 @@ li::first-letter {
 
 a {
   text-decoration: none;
+  color: rgb(27, 107, 173);
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(16, 0, 198);
+}
+
+span {
+  color: #ffffff;
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 400px;
+  margin: 70px auto;
+  border-radius: 10px;
 }
 
 .weather-app {
-  padding: 20px;
-  border: 1px solid #dadde1;
+  padding: 40px;
   border-radius: 10px;
+  background-color: #eeeeee;
+  background: linear-gradient(-210deg, #3785d4 30%, #74b0f9 70%);
+  box-shadow: 0px 7px 30px 0px rgba(27, 36, 75, 0.201);
 }
 
 .overview {
@@ -49,12 +63,12 @@ a {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 80px;
+  width: 80px;
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -68,7 +82,7 @@ a {
 
 .weather-temperature .active {
   text-decoration: none;
-  color: rgb(33, 33, 33);
+  color: rgb(255, 255, 255);
   cursor: default;
 }
 
