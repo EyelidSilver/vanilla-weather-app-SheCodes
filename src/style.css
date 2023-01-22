@@ -5,9 +5,9 @@ body {
 
 h1 {
   color: #ffffff;
-  font-size: 29px;
+  font-size: 50px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 50px;
   margin-bottom: 5;
 }
 
@@ -97,13 +97,13 @@ span {
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
   opacity: 0.7;
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .weather-forecast-temperature-min {
